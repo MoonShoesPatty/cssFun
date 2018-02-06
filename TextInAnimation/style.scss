@@ -20,13 +20,12 @@ svg {
   #title {
     stroke: #000;
     stroke-width: 1;
-    stroke-dasharray: 100px;
-    stroke-dashoffset: 100px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
     animation-name: draw;
-    animation-duration: 5s;
-    animation-fill-mode: forwards; // Stay on the last frame
-    animation-iteration-count: 1; // Run only once
+    animation-duration: 3s;
     animation-timing-function: linear;
+    animation-fill-mode: forwards;
   }
 }
 

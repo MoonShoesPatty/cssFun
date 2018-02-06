@@ -149,18 +149,16 @@ svg {
   svg #title {
     stroke: #000;
     stroke-width: 1;
-    stroke-dasharray: 100px;
-    stroke-dashoffset: 100px;
+    stroke-dasharray: 450px;
+    stroke-dashoffset: 450px;
     -webkit-animation-name: draw;
     animation-name: draw;
-    -webkit-animation-duration: 5s;
-    animation-duration: 5s;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
     -webkit-animation-timing-function: linear;
-    animation-timing-function: linear; }
+    animation-timing-function: linear;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
 
 @-webkit-keyframes draw {
   to {
