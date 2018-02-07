@@ -147,14 +147,15 @@ svg {
   bottom: 0;
   margin: auto; }
   svg #title {
+    font-family: monospace;
     stroke: #000;
     stroke-width: 1;
     stroke-dasharray: 450px;
     stroke-dashoffset: 450px;
     -webkit-animation-name: draw;
     animation-name: draw;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
     -webkit-animation-timing-function: linear;
     animation-timing-function: linear;
     -webkit-animation-fill-mode: forwards;
