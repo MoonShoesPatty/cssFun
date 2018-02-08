@@ -1,0 +1,14 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+.boxWrapper {
+    margin: 0 auto;
+}
+.one, .two, .three, .four {
+    background: #12B4E9;
+}
