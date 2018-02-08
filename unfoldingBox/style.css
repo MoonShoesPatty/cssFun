@@ -6,6 +6,8 @@ body {
     justify-content: center;
     align-items: center;
     background: black;
+    perspective: 800px;
+    perspective-origin: 55%;
 }
 .boxWrapper {
     margin: 0 auto;
@@ -17,4 +19,29 @@ body {
     background: #12B4E9;
     height: 15vw;
     width: 15vw;
+    transform-origin: 0% 100%;
+}
+#two {
+    animation: two 1.5s linear infinite;
+    position: relative;
+    z-index: 100;
+}
+
+@keyframes two {
+    0% {
+        transform: rotate3d(0, 1 , 0, 180deg);
+        background: #12B4E9;
+    }
+    25% {
+        transform: rotate3d(0, 1 , 0, 270deg);
+        background: rgb(8, 129, 170);        
+    }
+    50% {
+        transform: rotate3d(0, 1 , 0, 360deg);
+        background: #12B4E9;
+    }
+    100% {
+        transform: rotate3d(0, 1 , 0, 360deg);
+        background: #12B4E9;
+    }
 }
