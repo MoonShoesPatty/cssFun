@@ -27,19 +27,19 @@ body {
 /* ----- top right ----- */
 #two {
     animation: two 3s linear infinite;
-    animation-fill-mode: both;
+    animation-direction: alternate;
     transform-origin: 0% 100%;
 }
 @keyframes two {
-    0% {
+    0%, 5% {
         transform: rotate3d(0, 1 , 0, 180deg);
         background: #12B4E9;
     }
-    12.5% {
+    20% {
         transform: rotate3d(0, 1 , 0, 270deg);
         background: rgb(8, 129, 170);        
     }
-    25%, 100% {
+    35%, 100% {
         transform: rotate3d(0, 1 , 0, 360deg);
         background: #12B4E9;
     }
@@ -47,24 +47,25 @@ body {
 /* ----- bottom left ----- */
 #three {
     animation: three 3s linear infinite;
+    animation-direction: alternate;
     transform-origin: 100% 100%;
     position: relative;
     z-index: 100;
 }
 @keyframes three {
-    0%, 50% {
+    0%, 65% {
         transform: rotate3d(0, 1, 0, 180deg);
         background: #12B4E9;
         opacity: 0;
     }
-    50.1% {
+    65.1% {
         opacity: 1;
     }
-    62.5% {
+    80% {
         transform: rotate3d(0, 1, 0, 90deg);
         background: rgb(8, 129, 170);
     }
-    75%, 100% {
+    95%, 100% {
         transform: rotate3d(0, 1, 0, 0deg);
         background: #12B4E9;
     }
@@ -72,22 +73,23 @@ body {
 /* ----- bottom right ----- */
 #four {
     animation: four 3s linear infinite;
+    animation-direction: alternate;
     transform-origin: 100% 0%;
 }
 @keyframes four {
-    0%, 25% {
+    0%, 35% {
         transform: rotate3d(1, 0, 0, 180deg);
         background: #12B4E9;
         opacity: 0;
     }
-    25.1% {
+    35.1% {
         opacity: 1;
     }
-    37.5% {
+    50% {
         transform: rotate3d(1, 0, 0, 90deg);
         background: rgb(8, 129, 170);
     }
-    50%, 100% {
+    65%, 100% {
         transform: rotate3d(1, 0, 0, 0deg);
         background: #12B4E9;
     }
