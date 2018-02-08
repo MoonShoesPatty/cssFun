@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     background: black;
-    perspective: 400px;
+    perspective: 600px;
     perspective-origin: 55%;
     overflow: hidden;
 }
